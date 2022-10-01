@@ -4,18 +4,18 @@
 I have at my disposal data on the behavior of customers who have already switched to these tariffs. You need to build a model for the classification problem that will select the appropriate rate.
 It is necessary to build a model with the highest possible accuracy value. To pass the project successfully, you need to bring the percentage of correct answers to at least 0.75.***
 
-### Tariff Description
-***Tariff "Smart"***
+## Tariff Description
+### ***Tariff "Smart"***
 1. Monthly fee: 550 rubles
 2.Included 500 minutes of talk, 50 messages and 15 GB of internet traffic
 3. The cost of services above the tariff package:
 - minute of conversation: 3 rubles
 - message: 3 rubles
 - 1 GB of Internet traffic: 200 rubles
-- ***Tariff "Ultra"***
-- Monthly fee: 1950 rubles
-- Included 3000 minutes of calls, 1000 messages and 30 GB of internet traffic
-- The cost of services above the tariff package:
+### ***Tariff "Ultra"***
+1. Monthly fee: 1950 rubles
+2. Included 3000 minutes of calls, 1000 messages and 30 GB of internet traffic
+3. The cost of services above the tariff package:
 -- minute of conversation: 1 ruble
 -- message: 1 ruble
 -- 1 GB of Internet traffic: 150 rubles
