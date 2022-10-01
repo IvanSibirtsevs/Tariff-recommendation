@@ -1,6 +1,6 @@
 # Tariff recommendation
 
-*** The mobile operator Megaline found out that many customers use archival tariffs. They want to build a system that can analyze customer behavior and offer users a new tariff: "Smart" or "Ultra".
+***The mobile operator Megaline found out that many customers use archival tariffs. They want to build a system that can analyze customer behavior and offer users a new tariff: "Smart" or "Ultra".
 I have at my disposal data on the behavior of customers who have already switched to these tariffs. You need to build a model for the classification problem that will select the appropriate rate.
 It is necessary to build a model with the highest possible accuracy value. To pass the project successfully, you need to bring the percentage of correct answers to at least 0.75.***
 
