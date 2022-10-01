@@ -1,20 +1,20 @@
-# Рекомендация тарифов
+# Tariff recommendation
 
-***Оператор мобильной связи «Мегалайн» выяснил: многие клиенты пользуются архивными тарифами. Они хотят построить систему, способную проанализировать поведение клиентов и предложить пользователям новый тариф: «Смарт» или «Ультра».
-В моем распоряжении данные о поведении клиентов, которые уже перешли на эти тарифы . Нужно построить модель для задачи классификации, которая выберет подходящий тариф. 
-Нужно построить модель с максимально большим значением accuracy. Чтобы сдать проект успешно, нужно довести долю правильных ответов по крайней мере до 0.75.***
+*** The mobile operator Megaline found out that many customers use archival tariffs. They want to build a system that can analyze customer behavior and offer users a new tariff: "Smart" or "Ultra".
+I have at my disposal data on the behavior of customers who have already switched to these tariffs. You need to build a model for the classification problem that will select the appropriate rate.
+It is necessary to build a model with the highest possible accuracy value. To pass the project successfully, you need to bring the percentage of correct answers to at least 0.75.***
 
-- Открытие файла с данными и изучение его.
-- Разделение исходных данных на обучающую, валидационную и тестовую выборки.
-- Исследование качества разных моделей, меняя гиперпараметры. 
-- Проверка качество модели на тестовой выборке.
-- Проверка модели на вменяемость
+- Opening a data file and examining it.
+- Separation of the initial data into training, validation and test sets.
+- Study the quality of different models by changing the hyperparameters.
+- Checking the quality of the model on a test sample.
+- Checking the model for sanity
 
 
-Описание данных
-Каждый объект в наборе данных — это информация о поведении одного пользователя за месяц. Известно:
-- `сalls` — количество звонков,
-- `minutes` — суммарная длительность звонков в минутах,
-- `messages` — количество sms-сообщений,
-- `mb_used` — израсходованный интернет-трафик в Мб,
-- `is_ultra` — каким тарифом пользовался в течение месяца («Ультра» — 1, «Смарт» — 0).
+Data Description
+Each object in the data set is information about the behavior of one user per month. Known:
+- `calls` - number of calls,
+- `minutes` — total duration of calls in minutes,
+- `messages` — number of sms messages,
+- `mb_used` - used Internet traffic in Mb,
+- `is_ultra` - what tariff did you use during the month ("Ultra" - 1, "Smart" - 0).
